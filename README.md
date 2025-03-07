@@ -12,7 +12,7 @@ Estas herramientas se construyen vinculadas a los siguientes plug-ins en el IDE 
   A la definición de este DSL (modelo SmaC) se acopla un paquete que integra la funcionalidad del **puente smart contract - PCN**, permitiendo generar modelos PCN (*.pcn*) a partir de smart contracts en forma de modelo SmaC (*.sce*) con un formato específico.
 
 ## Puente PCN - Smart contract
-
+_______________
 Para transformar un modelo PCN en smart contract basta con hacer clic derecho sobre el modelo PCN objetivo dentro del *Package Explorer* de Eclipse, clicar sobre el botón ***Generate Solidity code*** y rellenar los datos necesarios para generar el fichero *.sce* resultante dentro del directorio *sce-gen*.
 
 ![Puente PCN - Smart Contract](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Videos/PCN-SmartContract_Demo.gif)
@@ -22,7 +22,7 @@ La herramienta se implementa en el paquete [***pcn.generator.sce***](https://git
 ![Arquitectura puente PCN - Smart Contract](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Images/PCN-SmartContract_Arch.png)
 
 ## Puente smart contract - PCN
-
+_______________
 Para transformar un smart contract en modelo PCN basta con hacer clic derecho sobre el modelo SmaC objetivo dentro del *Package Explorer* de Eclipse y clicar sobre el botón ***Generate PCN model*** para generar el fichero *.pcn* resultante dentro del directorio *pcn-gen*.
 
 ![Puente smart contract - PCN](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Videos/SmartContract-PCN_Demo.gif)
