@@ -15,18 +15,18 @@ Estas herramientas se construyen vinculadas a los siguientes plug-ins en el IDE 
 
 Para transformar un modelo PCN en smart contract basta con hacer clic derecho sobre el modelo PCN objetivo dentro del *Package Explorer* de Eclipse, clicar sobre el botón ***Generate Solidity code*** y rellenar los datos necesarios para generar el fichero *.sce* resultante dentro del directorio *sce-gen*.
 
-![Puente PCN - Smart Contract](https://github.com/alv4rob/PCN-SmartContract-Bridges/blob/main/Videos/PCN-SmartContract_Demo.gif)
+![Puente PCN - Smart Contract](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Videos/PCN-SmartContract_Demo.gif)
 
-La herramienta se implementa en el paquete [***pcn.generator.sce***](https://github.com/alv4rob/PCN-SmartContract-Bridges/blob/main/Plugins/es.kybele.elastic.models.pcn/src/pcn/generator/sce/) y sigue la siguiente arquitectura:
+La herramienta se implementa en el paquete [***pcn.generator.sce***](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Plugins/es.kybele.elastic.models.pcn/src/pcn/generator/sce/) y sigue la siguiente arquitectura:
 
-![Arquitectura puente PCN - Smart Contract](https://github.com/alv4rob/PCN-SmartContract-Bridges/blob/main/Images/PCN-SmartContract_Arch.png)
+![Arquitectura puente PCN - Smart Contract](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Images/PCN-SmartContract_Arch.png)
 
 ## Puente smart contract - PCN
 
 Para transformar un smart contract en modelo PCN basta con hacer clic derecho sobre el modelo SmaC objetivo dentro del *Package Explorer* de Eclipse y clicar sobre el botón ***Generate PCN model*** para generar el fichero *.pcn* resultante dentro del directorio *pcn-gen*.
 
-![Puente smart contract - PCN](https://github.com/alv4rob/PCN-SmartContract-Bridges/blob/main/Videos/SmartContract-PCN_Demo.gif)
+![Puente smart contract - PCN](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Videos/SmartContract-PCN_Demo.gif)
 
-La herramienta se implementa en el paquete [***sce.generator.pcn***](https://github.com/alv4rob/PCN-SmartContract-Bridges/blob/main/Plugins/org.xtext.ui/src/sce/generator/pcn/) y sigue la siguiente arquitectura:
+La herramienta se implementa en el paquete [***sce.generator.pcn***](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Plugins/org.xtext.ui/src/sce/generator/pcn/) y sigue la siguiente arquitectura:
 
-![Arquitectura puente smart contract - PCN](https://github.com/alv4rob/PCN-SmartContract-Bridges/blob/main/Images/SmartContract-PCN_Arch.png)
+![Arquitectura puente smart contract - PCN](https://github.com/alv4rob/Puentes-SC2PCN/blob/main/Images/SmartContract-PCN_Arch.png)
